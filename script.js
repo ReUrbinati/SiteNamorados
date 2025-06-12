@@ -40,9 +40,9 @@ const quizData = [
         answer: 2
     },
     {
-        question: "Qual é a minha comida favorita?",
-        options: ["Pizza", "Sushi", "Hambúrguer", "Lasanha"],
-        answer: 1
+        question: "O que me fez conversar com você?",
+        options: ["Ser CUrintiano", "Ter barba", "Ser trigêmeo", "Não gostar de Chocolate"],
+        answer: 3
     },
     {
         question: "Qual foi o placar da maior goleada entre Palmeiras e Corinthians?",
@@ -55,8 +55,8 @@ const quizData = [
         answer: 0
     },
     {
-        question: "Qual o primeiro presente que você me deu?",
-        options: ["Ursinho", "Girassol e chocolate", "Girassol", "Cesta de café da manhã"],
+        question: "O que eu estava fazendo no dia que conversamos pela 1ªvez no Whatsapp?",
+        options: ["Comendo", "Fazendo uma Tatuagem", "Fazendo compras", "Bebendo com as amigas"],
         answer: 1
     }
 ];
