@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><strong>Feliz Dia dos Namorados, meu amor! 💖</strong></h1>
+    </header>
+   <section id="club-symbols">
+    <h2>O Clássico dos Clássicos! ⚽</h2>
+    <div class="versus-container">
+        <img src="logo-palmeiras.webp" alt="Escudo do Palmeiras" class="team-logo">
+        <span class="versus">X</span>
+        <img src="corinthians.jpg" alt="Escudo do Corinthians" class="team-logo">
+    </div>
+</section>
+
+</section>
+
+    <section id="galeria">
+        <h2>Nossas Memórias</h2>
+        <div class="imagens">
+            <img src="primeirafoto.jpg" alt="Momento especial">
+            <img src="sorriso.jpg" alt="Outro lindo momento">
+        </div>
+    </section>
+    <h2>Quanto você me conhece? 💖</h2>
+    <div id="quiz-container"></div>
+    <button id="submitQuiz" onclick="checkAnswers()">Verificar Respostas</button>
+    <p id="quizResult"></p>
+    </section>
+
+
+    <section id="mensagem">
+        <h2>Uma mensagem para você 💌</h2>
+        
+        <button onclick="mostrarMensagem()">Abrir Carta</button>
+        <p id="textoCarta" style="display: none;">Você foi o melhor presente que Deus poderia me dar! <br>
+            Obrigada por ser sempre presente, carinhoso, intenso e incrível como você é! <br>
+            Ansiosa por tudo que ainda vamos viver!
+        </p>
+    </section>
+
+    <section id="heartGallery">
+        <h2>Clique nos corações para ver momentos especiais! 💖</h2>
+        <div class="heart-photo" onclick="showPhoto('iti.jpg')">❤️</div>
+        <div class="heart-photo" onclick="showPhoto('praia.jpg')">❤️</div>
+        <div class="heart-photo" onclick="showPhoto('motoristaFusca.jpg')">❤️</div>
+        <img id="photoView" style="display: none; width: 400px; border-radius: 50px;">
+    </section>
+    <section id="musicPlayer">
+        <h2>Nosso som especial 🎶</h2>
+        <audio controls>
+            <source src="Aerosmith - I Don't Want to Miss a Thing (Official HD Video).MP3" type="audio/mp3">
+            Seu navegador não suporta o áudio.
+        </audio>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
